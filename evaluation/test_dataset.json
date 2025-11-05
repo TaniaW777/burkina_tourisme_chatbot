@@ -1,0 +1,122 @@
+[
+  {
+    "id": "test_1",
+    "question": "Quels sont les meilleurs sites touristiques du Burkina Faso?",
+    "expected_answer": "Les meilleurs sites incluent le Parc W, la Cascade de Karfiguéla, les Lacs Colorés de Banfora, et les musées d'Ouagadougou.",
+    "category": "tourisme"
+  },
+  {
+    "id": "test_2",
+    "question": "Parlez-moi de la capitale du Burkina Faso",
+    "expected_answer": "Ouagadougou est la capitale du Burkina Faso, centre politique, économique et culturel du pays.",
+    "category": "tourisme"
+  },
+  {
+    "id": "test_3",
+    "question": "Quelle est la cuisine traditionnelle du Burkina Faso?",
+    "expected_answer": "La cuisine burkinabè est basée sur le mil, le sorgho, les arachides et les légumes. Les plats populaires incluent le riz gras et le tô.",
+    "category": "tourisme"
+  },
+  {
+    "id": "test_4",
+    "question": "Quand est le meilleur moment pour visiter le Burkina Faso?",
+    "expected_answer": "La meilleure période est de novembre à février quand le climat est plus frais et sec.",
+    "category": "tourisme"
+  },
+  {
+    "id": "test_5",
+    "question": "Parlez-moi du Parc W",
+    "expected_answer": "Le Parc W est une réserve naturelle transfrontalière avec une riche faune sauvage incluant des éléphants et des lions.",
+    "category": "tourisme"
+  },
+  {
+    "id": "test_6",
+    "question": "Qu'est-ce que le bogolan?",
+    "expected_answer": "Le bogolan est un tissu traditionnel teint avec de la boue, produit par des artisans locaux utilisant des techniques ancestrales.",
+    "category": "culture"
+  },
+  {
+    "id": "test_7",
+    "question": "Qu'est-ce que le FESPACO?",
+    "expected_answer": "Le FESPACO est le Festival Panafricain du Cinéma et de la Télévision, l'un des plus grands festivals de cinéma d'Afrique.",
+    "category": "culture"
+  },
+  {
+    "id": "test_8",
+    "question": "Parlez-moi de Bobo-Dioulasso",
+    "expected_answer": "Bobo-Dioulasso est la deuxième plus grande ville, connue comme la ville des arts et de la culture.",
+    "category": "tourisme"
+  },
+  {
+    "id": "test_9",
+    "question": "Quels sont les peuples du Burkina Faso?",
+    "expected_answer": "Les peuples incluent les Mossi, les Fulani, les Bobo, les Lobi et d'autres groupes ethniques avec leurs propres traditions.",
+    "category": "culture"
+  },
+  {
+    "id": "test_10",
+    "question": "Quel est le climat du Burkina Faso?",
+    "expected_answer": "Le climat est tropical sec avec une saison des pluies de mai à octobre et une saison sèche de novembre à avril.",
+    "category": "tourisme"
+  },
+  {
+    "id": "test_11",
+    "question": "Comment se déplacer au Burkina Faso?",
+    "expected_answer": "Les transports incluent les bus longue distance, les taxis brousse, les motos et la location de voitures dans les grandes villes.",
+    "category": "tourisme"
+  },
+  {
+    "id": "test_12",
+    "question": "Quels sont les formalités pour entrer au Burkina Faso?",
+    "expected_answer": "Un passeport valide est requis. Beaucoup de citoyens peuvent entrer sans visa pour 90 jours. Les vaccinations sont recommandées.",
+    "category": "tourisme"
+  },
+  {
+    "id": "test_13",
+    "question": "Parlez-moi de la Cascade de Karfiguéla",
+    "expected_answer": "C'est l'une des plus belles cascades du Burkina Faso avec des chutes d'eau de 60 mètres de hauteur.",
+    "category": "tourisme"
+  },
+  {
+    "id": "test_14",
+    "question": "Quels hébergements sont disponibles?",
+    "expected_answer": "Les hébergements varient des hôtels de luxe aux petits guesthouses, avec des prix généralement abordables.",
+    "category": "tourisme"
+  },
+  {
+    "id": "test_15",
+    "question": "Qu'est-ce que la Fête de la Musique de Dédougou?",
+    "expected_answer": "C'est un événement culturel annuel célébrant la musique traditionnelle et contemporaine du Burkina Faso.",
+    "category": "culture"
+  },
+  {
+    "id": "test_16",
+    "question": "Parlez-moi des Lacs Colorés de Banfora",
+    "expected_answer": "Ce sont des lacs avec des eaux teintées de différentes couleurs dues aux minéraux, une attraction touristique majeure.",
+    "category": "tourisme"
+  },
+  {
+    "id": "test_17",
+    "question": "Quel est le Musée National du Burkina Faso?",
+    "expected_answer": "C'est un musée à Ouagadougou présentant des artefacts historiques et culturels du pays.",
+    "category": "tourisme"
+  },
+  {
+    "id": "test_18",
+    "question": "Bonjour, comment allez-vous?",
+    "expected_answer": "Je vais bien, merci de demander. Comment puis-je vous aider avec vos questions sur le Burkina Faso?",
+    "category": "conversation"
+  },
+  {
+    "id": "test_19",
+    "question": "Merci pour votre aide",
+    "expected_answer": "De rien! N'hésitez pas à me poser d'autres questions.",
+    "category": "conversation"
+  },
+  {
+    "id": "test_20",
+    "question": "Quels sont les événements culturels importants?",
+    "expected_answer": "Les événements incluent la Fête de la Musique de Dédougou et le FESPACO, festival de cinéma panafricain.",
+    "category": "culture"
+  }
+]

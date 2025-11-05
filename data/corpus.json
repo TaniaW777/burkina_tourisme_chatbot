@@ -1,0 +1,152 @@
+[
+  {
+    "id": "doc_1",
+    "text": "Ouagadougou est la capitale du Burkina Faso. La ville est le centre politique, économique et culturel du pays. Elle abrite le Palais de Koulouba, résidence officielle du président, et de nombreux musées importants comme le Musée National du Burkina Faso qui présente l'histoire et la culture du pays. La ville offre une atmosphère dynamique avec ses marchés colorés et ses restaurants traditionnels.",
+    "metadata": {
+      "title": "Ouagadougou - Capitale du Burkina Faso",
+      "url": "https://example.com/ouagadougou",
+      "category": "tourisme",
+      "source_type": "manual"
+    }
+  },
+  {
+    "id": "doc_2",
+    "text": "Bobo-Dioulasso est la deuxième plus grande ville du Burkina Faso. Connue comme la ville des arts et de la culture, elle est un important centre touristique avec ses mosquées anciennes, ses marchés colorés et son architecture traditionnelle. La ville est aussi un carrefour commercial important. Les visiteurs peuvent explorer les traditions locales et découvrir l'artisanat traditionnel.",
+    "metadata": {
+      "title": "Bobo-Dioulasso - Ville des Arts",
+      "url": "https://example.com/bobo-dioulasso",
+      "category": "tourisme",
+      "source_type": "manual"
+    }
+  },
+  {
+    "id": "doc_3",
+    "text": "La Cascade de Karfiguéla est l'une des plus belles cascades du Burkina Faso, située dans la région de Cascades. Elle offre un paysage spectaculaire avec ses chutes d'eau de 60 mètres de hauteur. C'est une destination populaire pour les randonneurs et les amateurs de nature. La meilleure période pour visiter est pendant la saison des pluies.",
+    "metadata": {
+      "title": "Cascade de Karfiguéla",
+      "url": "https://example.com/cascade-karfiguela",
+      "category": "tourisme",
+      "source_type": "manual"
+    }
+  },
+  {
+    "id": "doc_4",
+    "text": "Le Parc W est une réserve naturelle transfrontalière partagée par le Burkina Faso, le Niger et le Bénin. C'est l'un des plus grands parcs nationaux d'Afrique de l'Ouest, riche en faune sauvage incluant des éléphants, des lions et des antilopes. C'est un paradis pour les safaris. Le parc offre une expérience unique de la nature africaine.",
+    "metadata": {
+      "title": "Parc W - Réserve Naturelle",
+      "url": "https://example.com/parc-w",
+      "category": "tourisme",
+      "source_type": "manual"
+    }
+  },
+  {
+    "id": "doc_5",
+    "text": "La Fête de la Musique de Dédougou est un événement culturel annuel qui célèbre la musique traditionnelle et contemporaine du Burkina Faso. Elle attire des musiciens et des visiteurs du monde entier pour découvrir la richesse musicale du pays. L'événement se déroule généralement en février et présente des artistes locaux et internationaux.",
+    "metadata": {
+      "title": "Fête de la Musique de Dédougou",
+      "url": "https://example.com/fete-musique",
+      "category": "culture",
+      "source_type": "manual"
+    }
+  },
+  {
+    "id": "doc_6",
+    "text": "Les tissus traditionnels du Burkina Faso, en particulier le bogolan (tissu teint avec de la boue), sont mondialement reconnus. Ces tissus sont produits par des artisans locaux utilisant des techniques ancestrales et sont des symboles importants de la culture burkinabè. Le bogolan est utilisé pour les vêtements, les décorateurs intérieures et les objets d'art.",
+    "metadata": {
+      "title": "Artisanat Textile Burkinabè",
+      "url": "https://example.com/bogolan",
+      "category": "culture",
+      "source_type": "manual"
+    }
+  },
+  {
+    "id": "doc_7",
+    "text": "Le Musée National du Burkina Faso à Ouagadougou présente une collection complète d'artefacts historiques et culturels. Les visiteurs peuvent explorer l'histoire du pays à travers des expositions permanentes et temporaires couvrant l'archéologie, l'ethnographie et l'art. Le musée offre une compréhension approfondie de la civilisation burkinabè.",
+    "metadata": {
+      "title": "Musée National du Burkina Faso",
+      "url": "https://example.com/musee-national",
+      "category": "tourisme",
+      "source_type": "manual"
+    }
+  },
+  {
+    "id": "doc_8",
+    "text": "Banfora est une ville pittoresque dans la région des Cascades, connue pour ses lacs colorés et ses formations rocheuses spectaculaires. Les Lacs Colorés de Banfora sont une attraction touristique majeure avec leurs eaux teintées de différentes couleurs dues aux minéraux. La ville est un point de départ idéal pour explorer la région.",
+    "metadata": {
+      "title": "Banfora et ses Lacs Colorés",
+      "url": "https://example.com/banfora",
+      "category": "tourisme",
+      "source_type": "manual"
+    }
+  },
+  {
+    "id": "doc_9",
+    "text": "La cuisine burkinabè est riche et variée, basée sur des ingrédients locaux comme le mil, le sorgho, les arachides et les légumes. Les plats populaires incluent le riz gras, le tô, et les brochettes. La gastronomie locale reflète la diversité culturelle du pays. Les repas sont souvent partagés en famille et sont une part importante de la culture sociale.",
+    "metadata": {
+      "title": "Gastronomie Burkinabè",
+      "url": "https://example.com/cuisine",
+      "category": "tourisme",
+      "source_type": "manual"
+    }
+  },
+  {
+    "id": "doc_10",
+    "text": "Le Festival Panafricain du Cinéma et de la Télévision (FESPACO) est l'un des plus grands festivals de cinéma d'Afrique, organisé tous les deux ans à Ouagadougou. Il célèbre le cinéma africain et attire des cinéastes et des visiteurs du monde entier. Le festival est une vitrine importante pour le cinéma africain contemporain.",
+    "metadata": {
+      "title": "FESPACO - Festival de Cinéma",
+      "url": "https://example.com/fespaco",
+      "category": "culture",
+      "source_type": "manual"
+    }
+  },
+  {
+    "id": "doc_11",
+    "text": "Le climat du Burkina Faso est tropical sec avec une saison des pluies de mai à octobre et une saison sèche de novembre à avril. La meilleure période pour visiter est de novembre à février quand le climat est plus frais. Les températures peuvent atteindre 40°C pendant la saison sèche. L'harmattan, un vent sec du Sahara, souffle pendant l'hiver.",
+    "metadata": {
+      "title": "Climat et Météo du Burkina Faso",
+      "url": "https://example.com/climat",
+      "category": "tourisme",
+      "source_type": "manual"
+    }
+  },
+  {
+    "id": "doc_12",
+    "text": "Les transports au Burkina Faso incluent les bus longue distance, les taxis brousse et les motos. L'aéroport international de Ouagadougou est le principal point d'entrée. Les routes principales sont généralement en bon état, mais les routes secondaires peuvent être difficiles pendant la saison des pluies. La location de voitures est disponible dans les grandes villes.",
+    "metadata": {
+      "title": "Transports et Déplacements",
+      "url": "https://example.com/transports",
+      "category": "tourisme",
+      "source_type": "manual"
+    }
+  },
+  {
+    "id": "doc_13",
+    "text": "Les formalités d'entrée au Burkina Faso incluent un passeport valide. Les citoyens de nombreux pays peuvent entrer sans visa pour un séjour touristique de 90 jours. Il est recommandé de vérifier les exigences spécifiques auprès de l'ambassade. Les vaccinations contre la fièvre jaune et le paludisme sont recommandées.",
+    "metadata": {
+      "title": "Formalités d'Entrée et Visas",
+      "url": "https://example.com/visas",
+      "category": "tourisme",
+      "source_type": "manual"
+    }
+  },
+  {
+    "id": "doc_14",
+    "text": "Les hébergements au Burkina Faso varient des hôtels de luxe aux petits guesthouses. Ouagadougou et Bobo-Dioulasso offrent une gamme complète d'options. Les prix sont généralement abordables comparés aux standards internationaux. Il est recommandé de réserver à l'avance pendant la haute saison touristique.",
+    "metadata": {
+      "title": "Hébergements et Logements",
+      "url": "https://example.com/hotels",
+      "category": "tourisme",
+      "source_type": "manual"
+    }
+  },
+  {
+    "id": "doc_15",
+    "text": "Les peuples du Burkina Faso incluent les Mossi, les Fulani, les Bobo, les Lobi et d'autres groupes ethniques. Chaque groupe a ses propres traditions, langues et coutumes. Le français est la langue officielle, mais plus de 70 langues locales sont parlées. La diversité culturelle est une richesse majeure du pays.",
+    "metadata": {
+      "title": "Peuples et Cultures du Burkina Faso",
+      "url": "https://example.com/cultures",
+      "category": "culture",
+      "source_type": "manual"
+    }
+  }
+]

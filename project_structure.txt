@@ -1,0 +1,24 @@
+burkina_tourisme_chatbot/
+├── data/
+│   ├── corpus.json             # Corpus de données touristiques du Burkina Faso (min. 500 documents)
+│   └── sources.txt             # Liste des sources utilisées pour la collecte de données
+├── evaluation/
+│   ├── test_dataset.json       # 20 questions de test avec réponses attendues
+│   └── evaluation_results.md   # Résultats de l'évaluation (Précision Retrieval, Pertinence, Temps Réponse)
+├── src/
+│   ├── backend/
+│   │   ├── __init__.py
+│   │   ├── main.py             # Point d'entrée de l'API FastAPI (endpoints /chat, /health)
+│   │   ├── rag_system.py       # Logique du système RAG (Embeddings, DB Vectorielle, LLM)
+│   │   ├── data_loader.py      # Script de chargement et d'indexation des données
+│   │   └── config.py           # Configuration de l'application (modèles, chemins, etc.)
+│   └── frontend/
+│       ├── index.html          # Page principale de la PWA
+│       ├── style.css           # Styles CSS pour l'interface du chatbot
+│       ├── app.js              # Logique JavaScript du chatbot et PWA
+│       ├── manifest.json       # Manifeste de l'application web progressive
+│       └── service-worker.js   # Service Worker pour les fonctionnalités PWA (offline, cache)
+├── .env.example                # Exemple de fichier d'environnement
+├── README.md                   # Documentation complète du projet
+├── LICENSE                     # Fichier de licence (MIT recommandé)
+└── requirements.txt            # Liste des dépendances Python (FastAPI, Uvicorn, Sentence-Transformers, ChromaDB, LLM)

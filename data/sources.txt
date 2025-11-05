@@ -1,0 +1,29 @@
+Sources utilisées pour le corpus Burkina Tourisme Chatbot
+=========================================================
+
+Sources Web:
+https://example.com/ouagadougou
+https://example.com/bobo-dioulasso
+https://example.com/cascade-karfiguela
+https://example.com/parc-w
+https://example.com/fete-musique
+https://example.com/bogolan
+https://example.com/musee-national
+https://example.com/banfora
+https://example.com/cuisine
+https://example.com/fespaco
+https://example.com/climat
+https://example.com/transports
+https://example.com/visas
+https://example.com/hotels
+https://example.com/cultures
+
+Données Manuelles:
+- Informations touristiques compilées de sources officielles
+- Données culturelles et historiques
+- Informations pratiques pour les visiteurs
+
+Notes:
+- Toutes les sources sont publiques et accessibles
+- Les données sont à jour au moment de la création (2025)
+- Pour les mises à jour, consulter les sites touristiques officiels

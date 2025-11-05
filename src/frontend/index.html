@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Assistant IA contextuel pour le tourisme au Burkina Faso">
+  <meta name="theme-color" content="#1a472a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Burkina Chat">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%231a472a' width='100' height='100'/><text x='50' y='70' font-size='60' text-anchor='middle'>🇧🇫</text></svg>">
+  <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'><rect fill='%231a472a' width='180' height='180' rx='40'/><text x='90' y='130' font-size='100' text-anchor='middle'>🇧🇫</text></svg>">
+  
+  <!-- Manifest PWA -->
+  <link rel="manifest" href="/manifest.json">
+  
+  <!-- Feuille de styles -->
+  <link rel="stylesheet" href="/style.css">
+  
+  <title>Burkina Tourisme Chatbot</title>
+</head>
+<body>
+  <div id="app">
+    <!-- En-tête -->
+    <header class="header">
+      <div class="header-content">
+        <div class="header-title">
+          <span class="header-icon">🇧🇫</span>
+          <div>
+            <div>Burkina Tourisme</div>
+            <div class="header-subtitle">Assistant IA Contextuel</div>
+          </div>
+        </div>
+        <div class="header-actions">
+          <button id="shareButton" class="header-button" title="Partager" onclick="appFunctions.shareApp()">
+            <span>📤</span>
+          </button>
+          <button id="clearButton" class="header-button" title="Effacer" onclick="appFunctions.clearChat()">
+            <span>🗑️</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Conteneur de chat -->
+    <div class="chat-container">
+      <!-- Zone des messages -->
+      <div id="messagesContainer" class="messages-container">
+        <div class="empty-state">
+          <div class="empty-state-icon">🌍</div>
+          <div class="empty-state-text">
+            <div class="empty-state-title">Bienvenue au Burkina Faso!</div>
+            <div class="empty-state-description">
+              Posez-moi vos questions sur le tourisme, la culture et les destinations au Burkina Faso.
+              Je suis votre assistant IA spécialisé pour vous aider à découvrir ce magnifique pays.
+            </div>
+          </div>
+          <div class="suggestions">
+            <button class="suggestion-button" onclick="document.getElementById('messageInput').value = 'Quels sont les meilleurs sites touristiques du Burkina Faso?'; document.getElementById('messageInput').focus();">
+              🏛️ Sites touristiques
+            </button>
+            <button class="suggestion-button" onclick="document.getElementById('messageInput').value = 'Parlez-moi de la culture burkinabè'; document.getElementById('messageInput').focus();">
+              🎭 Culture
+            </button>
+            <button class="suggestion-button" onclick="document.getElementById('messageInput').value = 'Quand est le meilleur moment pour visiter?'; document.getElementById('messageInput').focus();">
+              📅 Meilleure période
+            </button>
+            <button class="suggestion-button" onclick="document.getElementById('messageInput').value = 'Quelle est la cuisine locale?'; document.getElementById('messageInput').focus();">
+              🍲 Gastronomie
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Zone de saisie -->
+      <div class="input-container">
+        <div class="input-wrapper">
+          <textarea
+            id="messageInput"
+            class="input-field"
+            placeholder="Posez votre question sur le Burkina Faso..."
+            rows="1"
+            maxlength="1000"
+            aria-label="Champ de saisie du message"
+          ></textarea>
+          <button
+            id="sendButton"
+            class="send-button"
+            title="Envoyer le message (Entrée)"
+            aria-label="Envoyer le message"
+          >
+            <span>📤</span>
+            <span>Envoyer</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="/app.js"></script>
+  
+  <!-- Script d'initialisation PWA -->
+  <script>
+    /**
+     * Initialiser les fonctionnalités PWA avancées
+     */
+    
+    // Vérifier et afficher le support des fonctionnalités
+    window.addEventListener('load', () => {
+      const features = appFunctions.checkFeatureSupport();
+      
+      // Demander la permission pour les notifications
+      if (features.notification) {
+        appFunctions.requestNotificationPermission();
+      }
+      
+      // Ajouter le bouton d'installation si supporté
+      let deferredPrompt;
+      window.addEventListener('beforeinstallprompt', (e) => {
+        e.preventDefault();
+        deferredPrompt = e;
+        
+        // Afficher le bouton d'installation
+        const installButton = document.createElement('button');
+        installButton.className = 'header-button';
+        installButton.textContent = '⬇️ Installer';
+        installButton.onclick = async () => {
+          if (deferredPrompt) {
+            deferredPrompt.prompt();
+            const { outcome } = await deferredPrompt.userChoice;
+            console.log(`Installation ${outcome}`);
+            deferredPrompt = null;
+          }
+        };
+        
+        const headerActions = document.querySelector('.header-actions');
+        if (headerActions) {
+          headerActions.insertBefore(installButton, headerActions.firstChild);
+        }
+      });
+      
+      // Gérer l'installation réussie
+      window.addEventListener('appinstalled', () => {
+        console.log('Application installée');
+        deferredPrompt = null;
+      });
+    });
+    
+    // Gérer les mises à jour du Service Worker
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.addEventListener('controllerchange', () => {
+        console.log('Service Worker mis à jour');
+      });
+    }
+    
+    // Gérer les messages du Service Worker
+    if ('serviceWorker' in navigator && navigator.serviceWorker.controller) {
+      navigator.serviceWorker.controller.addEventListener('message', (event) => {
+        console.log('Message du Service Worker:', event.data);
+      });
+    }
+  </script>
+</body>
+</html>
